@@ -1,7 +1,30 @@
-li a {
-    color: green;
+body {
+    background:linear-gradient(#c4644a, #afdf41);
+    padding: 20px;
+}
+/* ---------- index ---------- */
+.poll-con{
+    background-color: rgb(21, 102, 102);
+}
+.poll-list li {
+    padding: 10px;
+}
+.poll-list li a {
+    /* color: rgb(0, 13, 128); */
     text-decoration: none;
 }
-body {
-    background:linear-gradient(#F89174, #FFC778);
+
+/* ---------- detail ---------- */
+.form-list {
+    background-color: rgb(21, 102, 102);
+    padding: 10px;
+}
+
+/* ---------- results ---------- */
+.result-list li{
+    padding: 10px;
+}
+.again-btn{
+    margin-top: 20px;
+    text-decoration: none;
 }
